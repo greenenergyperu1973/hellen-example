@@ -352,6 +352,211 @@
 				)
 			)
 		)
+		(symbol "vr:Module-vr-0.1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Module-vr-0.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "hellen-one-vr-0.1:vr"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hellen-One VR Module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Module-vr-0.1_1_0"
+				(rectangle
+					(start 33.02 0)
+					(end 0 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "IN_VR1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "IN_VR1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "IN_VR2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "IN_VR2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -10.16 180)
+					(length 5.08)
+					(name "OUT_VR2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -7.62 180)
+					(length 5.08)
+					(name "OUT_VR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
@@ -365,6 +570,36 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 46.99) (xy 161.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3940b548-1129-4fc4-9249-32e20c72328b")
+	)
+	(wire
+		(pts
+			(xy 161.29 46.99) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a8deff-fc13-43aa-8d40-8996f54e08cd")
+	)
+	(wire
+		(pts
+			(xy 161.29 55.88) (xy 168.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb44cd2-de26-437e-8a25-520d8eae42ab")
+	)
+	(wire
+		(pts
 			(xy 86.36 38.1) (xy 99.06 38.1)
 		)
 		(stroke
@@ -372,6 +607,92 @@
 			(type default)
 		)
 		(uuid "f92ee141-84fe-4ca3-9475-035df87c6b3e")
+	)
+	(symbol
+		(lib_id "vr:Module-vr-0.1")
+		(at 173.99 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087dda41-b11d-40f6-bf13-053edf883e4c")
+		(property "Reference" "M3"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Module-vr-0.1"
+			(at 190.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-vr-0.1:vr"
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hellen-One VR Module"
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "E2"
+			(uuid "1fafc07d-a711-4556-abf9-a714d54cc6d3")
+		)
+		(pin "N1"
+			(uuid "bbe45df5-df2a-46a1-b4ea-7f75e4a634c0")
+		)
+		(pin "G"
+			(uuid "7a8f7d6a-717f-43cf-8afb-646bed4cff9e")
+		)
+		(pin "E3"
+			(uuid "09de074c-e921-4f15-b00b-ae2eda7bfe66")
+		)
+		(pin "E4"
+			(uuid "6b5a05e0-dd13-4777-8cff-164ac4226bb3")
+		)
+		(pin "W1"
+			(uuid "e3fc0fe6-cb44-46f8-a3d4-bdce4e863aff")
+		)
+		(pin "E1"
+			(uuid "3c37e0e4-6d43-4271-ae6b-d078f44c4903")
+		)
+		(pin "W2"
+			(uuid "2e94fd9c-7edd-4ba1-a92c-0ea8631a2925")
+		)
+		(instances
+			(project ""
+				(path "/21d7de3a-3085-4cf6-8b96-c28a6ef2f188"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "knock:Module-knock-0.2")
