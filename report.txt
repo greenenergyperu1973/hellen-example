@@ -1,11 +1,1 @@
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-F_Cu.gbr'.
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-B_Cu.gbr'.
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-F_Paste.gbr'.
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-B_Paste.gbr'.
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-F_Silkscreen.gbr'.
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-B_Silkscreen.gbr'.
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-F_Mask.gbr'.
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-B_Mask.gbr'.
-Plotted to 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-Edge_Cuts.gbr'.
-Archivo de trabajo Gerber 'C:\Users\SOFT\Documents\ECU-GREEN\hellen-example\greenenergyecu-job.gbrjob' creado.
-Info: Listo.
+Error: Actualizar símbolo M2 de 'knock:Module-knock-0.2' a 'knock:Module-knock-0.2': *** no se ha encontrado el símbolo***
