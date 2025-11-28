@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-example/hellen-example/greenenergyecu.kicad_sch</source>
-    <date>2025-11-28T17:35:18+0000</date>
+    <date>2025-11-28T18:13:08+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,6 +24,20 @@
     </sheet>
   </design>
   <components>
+    <comp ref="M1">
+      <value>Module-vr-discrete-0.5</value>
+      <footprint>hellen-one-vr-discrete-0.5:vr-discrete</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-vr-discrete-0.5:vr-discrete</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="vr-discrete" part="Module-vr-discrete-0.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenenergyecu.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80983117-5756-4b19-b7cf-3b5c14fc4126</tstamps>
+    </comp>
     <comp ref="M2">
       <value>Module-knock-0.2</value>
       <footprint>hellen-one-knock-0.2:knock</footprint>
@@ -58,22 +72,59 @@
         <pin num="W2" name="VREF" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="vr-discrete" part="Module-vr-discrete-0.5">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-vr-discrete-0.5</field>
+        <field name="Footprint">hellen-one-vr-discrete-0.5:vr-discrete</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="E1" name="Thresh_IN" type="passive"/>
+        <pin num="E2" name="OUT_A" type="passive"/>
+        <pin num="E3" name="OUT" type="passive"/>
+        <pin num="E4" name="V5_IN" type="passive"/>
+        <pin num="G" name="GND" type="passive"/>
+        <pin num="W1" name="VR-" type="passive"/>
+        <pin num="W2" name="VR+" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries/>
   <nets>
-    <net code="1" name="unconnected-(M2-GND-PadE2)">
-      <node ref="M2" pin="E2" pinfunction="GND" pintype="passive"/>
-    </net>
-    <net code="2" name="unconnected-(M2-IN_KNOCK-PadW1)">
+    <net code="1" name="Net-(M1-OUT)">
+      <node ref="M1" pin="E3" pinfunction="OUT" pintype="passive"/>
       <node ref="M2" pin="W1" pinfunction="IN_KNOCK" pintype="passive"/>
     </net>
-    <net code="3" name="unconnected-(M2-OUT_KNOCK-PadE3)">
+    <net code="2" name="unconnected-(M1-GND-PadG)">
+      <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="3" name="unconnected-(M1-OUT_A-PadE2)">
+      <node ref="M1" pin="E2" pinfunction="OUT_A" pintype="passive"/>
+    </net>
+    <net code="4" name="unconnected-(M1-Thresh_IN-PadE1)">
+      <node ref="M1" pin="E1" pinfunction="Thresh_IN" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(M1-V5_IN-PadE4)">
+      <node ref="M1" pin="E4" pinfunction="V5_IN" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(M1-VR+-PadW2)">
+      <node ref="M1" pin="W2" pinfunction="VR+" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(M1-VR--PadW1)">
+      <node ref="M1" pin="W1" pinfunction="VR-" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(M2-GND-PadE2)">
+      <node ref="M2" pin="E2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(M2-OUT_KNOCK-PadE3)">
       <node ref="M2" pin="E3" pinfunction="OUT_KNOCK" pintype="passive"/>
     </net>
-    <net code="4" name="unconnected-(M2-V5A-PadE1)">
+    <net code="10" name="unconnected-(M2-V5A-PadE1)">
       <node ref="M2" pin="E1" pinfunction="V5A" pintype="passive"/>
     </net>
-    <net code="5" name="unconnected-(M2-VREF-PadW2)">
+    <net code="11" name="unconnected-(M2-VREF-PadW2)">
       <node ref="M2" pin="W2" pinfunction="VREF" pintype="passive"/>
     </net>
   </nets>
