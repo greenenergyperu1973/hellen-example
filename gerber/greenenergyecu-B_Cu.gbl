@@ -1,21 +1,53 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.9-8.0.9-0~ubuntu24.04.1*
-G04 #@! TF.CreationDate,2025-11-26T22:56:42+00:00*
+G04 #@! TF.CreationDate,2025-11-28T17:15:43+00:00*
 G04 #@! TF.ProjectId,greenenergyecu,67726565-6e65-46e6-9572-67796563752e,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L2,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.9-8.0.9-0~ubuntu24.04.1) date 2025-11-26 22:56:42*
+G04 Created by KiCad (PCBNEW 8.0.9-8.0.9-0~ubuntu24.04.1) date 2025-11-28 17:15:43*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-G04 #@! TA.AperFunction,ViaPad*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD10C,0.600000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
+%ADD11O,0.200000X1.225000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,SMDPad,CuDef*
+%ADD12O,9.300000X0.200000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
+%ADD13C,0.600000*%
 G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
+G04 #@! TO.P,M2,E1,V5A*
+G04 #@! TO.N,unconnected-(M2-V5A-PadE1)*
+X18500000Y-3600002D03*
+D11*
+G04 #@! TO.P,M2,E2,GND*
+G04 #@! TO.N,unconnected-(M2-GND-PadE2)*
+X9600000Y-5575002D03*
+D12*
+X14150000Y-3000002D03*
+X14150000Y-6100002D03*
+D10*
+X18500000Y-4550002D03*
+G04 #@! TO.P,M2,E3,OUT_KNOCK*
+G04 #@! TO.N,unconnected-(M2-OUT_KNOCK-PadE3)*
+X18500000Y-5500000D03*
+G04 #@! TO.P,M2,W1,IN_KNOCK*
+G04 #@! TO.N,unconnected-(M2-IN_KNOCK-PadW1)*
+X9800000Y-4500002D03*
+G04 #@! TO.P,M2,W2,VREF*
+G04 #@! TO.N,unconnected-(M2-VREF-PadW2)*
+X9800000Y-3600002D03*
+G04 #@! TD*
+D13*
 G04 #@! TO.N,*
 X0Y-40000D03*
 X-1000000Y960000D03*
