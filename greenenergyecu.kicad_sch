@@ -156,10 +156,226 @@
 				)
 			)
 		)
+		(symbol "vr-discrete:Module-vr-discrete-0.5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Module-vr-discrete-0.5"
+				(at 16.51 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "hellen-one-vr-discrete-0.5:vr-discrete"
+				(at 25.4 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Module-vr-discrete-0.5_1_0"
+				(rectangle
+					(start 0 0)
+					(end 33.02 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Install R770 for use\nwith very hot VR signals, \nto dampen the signal"
+					(at 5.08 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(pin passive line
+					(at 40.64 -12.7 180)
+					(length 7.62)
+					(name "Thresh_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "OUT_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 7.62)
+					(name "V5_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -12.7 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 7.62)
+					(name "VR-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 7.62)
+					(name "VR+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 99.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00291e4f-3a43-4353-8637-89e636590343")
+	)
+	(wire
+		(pts
+			(xy 86.36 38.1) (xy 99.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92ee141-84fe-4ca3-9475-035df87c6b3e")
 	)
 	(symbol
 		(lib_id "knock:Module-knock-0.2")
-		(at 133.35 97.79 0)
+		(at 106.68 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -168,7 +384,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d45afb9-0ae1-46eb-8052-5655e9bc5dd6")
 		(property "Reference" "M2"
-			(at 176.53 101.6314 0)
+			(at 149.86 40.6714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,7 +392,7 @@
 			)
 		)
 		(property "Value" "Module-knock-0.2"
-			(at 176.53 104.1714 0)
+			(at 149.86 43.2114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +400,7 @@
 			)
 		)
 		(property "Footprint" "hellen-one-knock-0.2:knock"
-			(at 133.35 97.79 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,7 +409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 97.79 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +418,7 @@
 			)
 		)
 		(property "Description" "Hellen-One Knock Pre-amplifier Module"
-			(at 133.35 97.79 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,6 +445,89 @@
 			(project ""
 				(path "/21d7de3a-3085-4cf6-8b96-c28a6ef2f188"
 					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vr-discrete:Module-vr-discrete-0.5")
+		(at 45.72 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80983117-5756-4b19-b7cf-3b5c14fc4126")
+		(property "Reference" "M1"
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Module-vr-discrete-0.5"
+			(at 62.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-vr-discrete-0.5:vr-discrete"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "W2"
+			(uuid "e258da66-c9a4-4d51-8678-d555520b962c")
+		)
+		(pin "W1"
+			(uuid "6d98a5a9-ce3e-403a-9c0c-54b25a6078ed")
+		)
+		(pin "E3"
+			(uuid "5094a683-9cbe-4c58-bfae-92426e9a8eb1")
+		)
+		(pin "E4"
+			(uuid "53ad5634-e3f3-4298-9109-4c19c3bda232")
+		)
+		(pin "E1"
+			(uuid "5beb8ee3-230d-4a32-aed7-1b8287ea71a8")
+		)
+		(pin "E2"
+			(uuid "3ca915be-9386-4f9e-94f9-01189c5029f0")
+		)
+		(pin "G"
+			(uuid "9263237a-6777-49a0-9e82-07fdaca6f912")
+		)
+		(instances
+			(project ""
+				(path "/21d7de3a-3085-4cf6-8b96-c28a6ef2f188"
+					(reference "M1")
 					(unit 1)
 				)
 			)
