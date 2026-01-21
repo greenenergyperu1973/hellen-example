@@ -116,9 +116,9 @@
 	(footprint "motor-driver:motor-driver"
 		(layer "F.Cu")
 		(uuid "4f954898-fdf6-441d-8b3d-aabcba1e2fcf")
-		(at 8.66 -0.69)
+		(at 10.105 -14.205 -90)
 		(property "Reference" "M4"
-			(at 2.45 -9.8 0)
+			(at 2.45 -9.8 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -131,7 +131,7 @@
 			)
 		)
 		(property "Value" "Module-motor-driver-0.1"
-			(at 9.4 -11.3 0)
+			(at 9.4 -11.3 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -144,7 +144,7 @@
 			)
 		)
 		(property "Footprint" "motor-driver:motor-driver"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe0de7bf-9929-48ce-a013-a6b79d490960")
@@ -156,7 +156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2917a18c-612a-4356-b901-0994a71233be")
@@ -168,7 +168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f3f4db7-9ee1-43ba-8046-5a6c663d7164")
@@ -206,7 +206,7 @@
 			(uuid "6f9d8d1d-7ddc-475e-884d-e3048775db53")
 		)
 		(pad "G" smd rect
-			(at 0.1 -2.2 180)
+			(at 0.1 -2.2 90)
 			(size 0.2 4.4)
 			(layers "F.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -216,7 +216,7 @@
 			(uuid "af084b2c-7e71-4878-8d92-015d42d15c5f")
 		)
 		(pad "G" smd rect
-			(at 0.1 -2.2 180)
+			(at 0.1 -2.2 90)
 			(size 0.2 4.4)
 			(layers "In1.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -226,7 +226,7 @@
 			(uuid "14d3d371-4b65-4f1e-90d9-75918da0e72e")
 		)
 		(pad "G" smd rect
-			(at 0.1 -2.2 180)
+			(at 0.1 -2.2 90)
 			(size 0.2 4.4)
 			(layers "In2.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -236,7 +236,7 @@
 			(uuid "15cbbc11-07b7-45d6-a6e5-68d561cdffc3")
 		)
 		(pad "G" smd rect
-			(at 0.1 -2.2 180)
+			(at 0.1 -2.2 90)
 			(size 0.2 4.4)
 			(layers "B.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -246,7 +246,7 @@
 			(uuid "3f6ee6c7-f624-4fa6-8ae4-f3dcb3fda4c6")
 		)
 		(pad "G" smd rect
-			(at 0.6 -0.1 270)
+			(at 0.6 -0.1 180)
 			(size 0.2 1.2)
 			(layers "F.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -256,7 +256,7 @@
 			(uuid "f605501d-7611-4a26-83c1-d3b5c39bb81d")
 		)
 		(pad "G" smd rect
-			(at 0.6 -0.1 270)
+			(at 0.6 -0.1 180)
 			(size 0.2 1.2)
 			(layers "In1.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -266,7 +266,7 @@
 			(uuid "f7207105-bf24-4da7-a7b1-0a425a132816")
 		)
 		(pad "G" smd rect
-			(at 0.6 -0.1 270)
+			(at 0.6 -0.1 180)
 			(size 0.2 1.2)
 			(layers "In2.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -276,7 +276,7 @@
 			(uuid "cfcdf3ef-4aec-4eac-b489-f4cf35aa4f7a")
 		)
 		(pad "G" smd rect
-			(at 0.6 -0.1 270)
+			(at 0.6 -0.1 180)
 			(size 0.2 1.2)
 			(layers "B.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -286,7 +286,7 @@
 			(uuid "a1c39b37-5188-48b7-8084-aaad7f1d3d57")
 		)
 		(pad "G" smd rect
-			(at 5 -9.9 270)
+			(at 5 -9.9 180)
 			(size 0.2 6.8)
 			(layers "F.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -296,7 +296,7 @@
 			(uuid "3825d839-1aae-4d30-971c-883a603a43df")
 		)
 		(pad "G" smd rect
-			(at 5 -9.9 270)
+			(at 5 -9.9 180)
 			(size 0.2 6.8)
 			(layers "In1.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -306,7 +306,7 @@
 			(uuid "f3a346b5-b75c-49f9-8a5c-9c8cb222e02f")
 		)
 		(pad "G" smd rect
-			(at 5 -9.9 270)
+			(at 5 -9.9 180)
 			(size 0.2 6.8)
 			(layers "In2.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -316,7 +316,7 @@
 			(uuid "d292559f-d04e-4983-9812-2cd8215e9de5")
 		)
 		(pad "G" smd rect
-			(at 5 -9.9 270)
+			(at 5 -9.9 180)
 			(size 0.2 6.8)
 			(layers "B.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -326,7 +326,7 @@
 			(uuid "5e432cea-8739-429d-990f-977e8fe640fb")
 		)
 		(pad "G" smd rect
-			(at 7.2 -0.1 270)
+			(at 7.2 -0.1 180)
 			(size 0.2 6.8)
 			(layers "F.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -336,7 +336,7 @@
 			(uuid "a9b6124e-cfe8-469c-9143-12e9cdf8caad")
 		)
 		(pad "G" smd rect
-			(at 7.2 -0.1 270)
+			(at 7.2 -0.1 180)
 			(size 0.2 6.8)
 			(layers "In1.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -346,7 +346,7 @@
 			(uuid "ccb09a22-c036-499a-b14a-22cc98adce02")
 		)
 		(pad "G" smd rect
-			(at 7.2 -0.1 270)
+			(at 7.2 -0.1 180)
 			(size 0.2 6.8)
 			(layers "In2.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -356,7 +356,7 @@
 			(uuid "a3e01f66-4f3d-4fba-a658-faacba92f6ff")
 		)
 		(pad "G" smd rect
-			(at 7.2 -0.1 270)
+			(at 7.2 -0.1 180)
 			(size 0.2 6.8)
 			(layers "B.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -366,7 +366,7 @@
 			(uuid "ae996127-d4ed-4779-9680-d4e1d2b1304f")
 		)
 		(pad "G" smd rect
-			(at 11.8 -9.9 270)
+			(at 11.8 -9.9 180)
 			(size 0.2 4)
 			(layers "F.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -376,7 +376,7 @@
 			(uuid "d1e349aa-2f22-4507-937e-115bbb329d20")
 		)
 		(pad "G" smd rect
-			(at 11.8 -9.9 270)
+			(at 11.8 -9.9 180)
 			(size 0.2 4)
 			(layers "In1.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -386,7 +386,7 @@
 			(uuid "b2a41938-c02d-48af-b66a-dcfe685823a6")
 		)
 		(pad "G" smd rect
-			(at 11.8 -9.9 270)
+			(at 11.8 -9.9 180)
 			(size 0.2 4)
 			(layers "In2.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -396,7 +396,7 @@
 			(uuid "4da2833e-9a7d-4b36-aef7-bfe623b3c84e")
 		)
 		(pad "G" smd rect
-			(at 11.8 -9.9 270)
+			(at 11.8 -9.9 180)
 			(size 0.2 4)
 			(layers "B.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -406,7 +406,7 @@
 			(uuid "b257520e-d8f1-4c97-8298-2841d5fb40dd")
 		)
 		(pad "G" smd rect
-			(at 12.9 -0.1 270)
+			(at 12.9 -0.1 180)
 			(size 0.2 1.8)
 			(layers "F.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -416,7 +416,7 @@
 			(uuid "a9432e3a-04bd-483b-8f5e-ae27c104c6f1")
 		)
 		(pad "G" smd rect
-			(at 12.9 -0.1 270)
+			(at 12.9 -0.1 180)
 			(size 0.2 1.8)
 			(layers "In1.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -426,7 +426,7 @@
 			(uuid "a0fff608-2df4-4f2c-bbcb-76a499338da2")
 		)
 		(pad "G" smd rect
-			(at 12.9 -0.1 270)
+			(at 12.9 -0.1 180)
 			(size 0.2 1.8)
 			(layers "In2.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -436,7 +436,7 @@
 			(uuid "c4cedddf-6eaa-48b8-8b74-80c28e6f289c")
 		)
 		(pad "G" smd rect
-			(at 12.9 -0.1 270)
+			(at 12.9 -0.1 180)
 			(size 0.2 1.8)
 			(layers "B.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -446,7 +446,7 @@
 			(uuid "66130bda-a4a5-4eef-82b1-def70e197f54")
 		)
 		(pad "G" smd rect
-			(at 13.7 -5 180)
+			(at 13.7 -5 90)
 			(size 0.2 10)
 			(layers "F.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -456,7 +456,7 @@
 			(uuid "866d9fbc-e2e5-4535-9115-efbe4da9789b")
 		)
 		(pad "G" smd rect
-			(at 13.7 -5 180)
+			(at 13.7 -5 90)
 			(size 0.2 10)
 			(layers "In1.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -466,7 +466,7 @@
 			(uuid "5a7dee3e-e726-4377-ae11-0625229c7ca2")
 		)
 		(pad "G" smd rect
-			(at 13.7 -5 180)
+			(at 13.7 -5 90)
 			(size 0.2 10)
 			(layers "In2.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -476,7 +476,7 @@
 			(uuid "37d2e82a-5352-4d54-a16a-d5c22cad99f5")
 		)
 		(pad "G" smd rect
-			(at 13.7 -5 180)
+			(at 13.7 -5 90)
 			(size 0.2 10)
 			(layers "B.Cu")
 			(net 20 "unconnected-(M4-GND-PadG)")
@@ -486,7 +486,7 @@
 			(uuid "1ca5f840-17fc-4694-bf30-3f3d167a7473")
 		)
 		(pad "N1" thru_hole circle
-			(at 1.1 -9.7 90)
+			(at 1.1 -9.7)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -499,7 +499,7 @@
 			(uuid "b4563f20-bc7a-435d-aaad-e272199e8f77")
 		)
 		(pad "N2" thru_hole circle
-			(at 9.1 -9.5 180)
+			(at 9.1 -9.5 90)
 			(size 1 1)
 			(drill 0.7)
 			(layers "*.Cu")
@@ -512,7 +512,7 @@
 			(uuid "11654228-0499-4119-8cce-2f1504c01185")
 		)
 		(pad "S1" thru_hole circle
-			(at 1.9 -0.5 180)
+			(at 1.9 -0.5 90)
 			(size 1 1)
 			(drill 0.7)
 			(layers "*.Cu")
@@ -525,7 +525,7 @@
 			(uuid "eb63e4db-0593-4646-8b8d-c3a6ec4da954")
 		)
 		(pad "S2" thru_hole circle
-			(at 3.1 -0.5 180)
+			(at 3.1 -0.5 90)
 			(size 1 1)
 			(drill 0.7)
 			(layers "*.Cu")
@@ -538,7 +538,7 @@
 			(uuid "ccd7d104-39fb-4e69-98ba-7ea8b28a0146")
 		)
 		(pad "S3" thru_hole circle
-			(at 11.3 -0.5 180)
+			(at 11.3 -0.5 90)
 			(size 1 1)
 			(drill 0.7)
 			(layers "*.Cu")
@@ -551,7 +551,7 @@
 			(uuid "62c4c4e1-4ad9-49d8-9569-2ae0432e403e")
 		)
 		(pad "W1" thru_hole circle
-			(at 0.3 -9.7 90)
+			(at 0.3 -9.7)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -564,7 +564,7 @@
 			(uuid "4f9eba02-966c-4479-8697-9ae8f7539418")
 		)
 		(pad "W2" thru_hole circle
-			(at 0.3 -8.9 90)
+			(at 0.3 -8.9)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -577,7 +577,7 @@
 			(uuid "ece95dcd-7de2-4e9a-8400-6d1cc861f27a")
 		)
 		(pad "W3" thru_hole circle
-			(at 0.3 -8.1 90)
+			(at 0.3 -8.1)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -590,7 +590,7 @@
 			(uuid "fdfdf2b9-bf6c-42f0-b684-2f2af66b8f12")
 		)
 		(pad "W4" thru_hole circle
-			(at 0.3 -7.3 90)
+			(at 0.3 -7.3)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -603,7 +603,7 @@
 			(uuid "ceebd212-efc2-4b87-94e0-4ec01f891abf")
 		)
 		(pad "W5" thru_hole circle
-			(at 0.3 -6.5 90)
+			(at 0.3 -6.5)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -616,7 +616,7 @@
 			(uuid "16751303-8b06-407b-9667-3b6c9a7e6483")
 		)
 		(pad "W6" thru_hole circle
-			(at 0.3 -5.7 90)
+			(at 0.3 -5.7)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -629,7 +629,7 @@
 			(uuid "b179ef84-3e9d-436f-ac60-24a6a01582e5")
 		)
 		(pad "W7" thru_hole circle
-			(at 0.3 -4.9 90)
+			(at 0.3 -4.9)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -665,7 +665,7 @@
 			)
 			(polygon
 				(pts
-					(xy 22.36 -0.79) (xy 8.76 -0.79) (xy 8.76 -10.59) (xy 22.36 -10.59)
+					(xy 10.205 -0.505) (xy 10.205 -14.105) (xy 20.005 -14.105) (xy 20.005 -0.505)
 				)
 			)
 		)
@@ -1042,7 +1042,7 @@
 	(footprint "hellen-one-vr-0.1:vr"
 		(layer "F.Cu")
 		(uuid "e1e2dc12-3e98-4813-9d05-03fdf45b01f7")
-		(at 12.250002 19.89)
+		(at 0.015876 20.388602)
 		(property "Reference" "M3"
 			(at 0.0762 -9.017 0)
 			(unlocked yes)
@@ -1324,10 +1324,10 @@
 			)
 			(polygon
 				(pts
-					(xy 12.67726 19.665) (xy 12.67726 18.768986) (xy 12.474467 18.768986) (xy 12.275002 18.768986)
-					(xy 12.275002 11.915) (xy 12.847867 11.633171) (xy 12.994849 11.940003) (xy 17.993204 11.940003)
-					(xy 18.19284 11.633171) (xy 18.762044 11.633171) (xy 18.888074 11.940003) (xy 32.15 11.939957)
-					(xy 32.15 19.665)
+					(xy 0.443134 20.163602) (xy 0.443134 19.267588) (xy 0.240341 19.267588) (xy 0.040876 19.267588)
+					(xy 0.040876 12.413602) (xy 0.613741 12.131773) (xy 0.760723 12.438605) (xy 5.759078 12.438605)
+					(xy 5.958714 12.131773) (xy 6.527918 12.131773) (xy 6.653948 12.438605) (xy 19.915874 12.438559)
+					(xy 19.915874 20.163602)
 				)
 			)
 		)
@@ -1818,14 +1818,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "30fcdf9c-69e0-494b-8594-874143c41a85")
-	)
-	(via
-		(at 1.5 19.04)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "78429eb4-5963-4033-aa16-9c9b4ee4873c")
 	)
 	(via
 		(at 33 19.04)
