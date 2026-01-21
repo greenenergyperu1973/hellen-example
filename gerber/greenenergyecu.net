@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-example/hellen-example/greenenergyecu.kicad_sch</source>
-    <date>2025-11-28T20:23:01+0000</date>
+    <date>2026-01-21T19:08:47+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -68,6 +68,20 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>087dda41-b11d-40f6-bf13-053edf883e4c</tstamps>
     </comp>
+    <comp ref="M4">
+      <value>Module-motor-driver-0.1</value>
+      <footprint>hellen-one-motor-driver-0.1:motor-driver</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-motor-driver-0.1:motor-driver</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="motor-driver" part="Module-motor-driver-0.1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenenergyecu.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d0721e6-e719-430d-98fe-379394e93d90</tstamps>
+    </comp>
   </components>
   <libparts>
     <libpart lib="knock" part="Module-knock-0.2">
@@ -85,6 +99,30 @@
         <pin num="E3" name="OUT_KNOCK" type="passive"/>
         <pin num="W1" name="IN_KNOCK" type="passive"/>
         <pin num="W2" name="VREF" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="motor-driver" part="Module-motor-driver-0.1">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-motor-driver-0.1</field>
+        <field name="Footprint">hellen-one-motor-driver-0.1:motor-driver</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="G" name="GND" type="passive"/>
+        <pin num="N1" name="MOSI" type="passive"/>
+        <pin num="N2" name="12V_IN" type="passive"/>
+        <pin num="S1" name="12V_IN" type="passive"/>
+        <pin num="S2" name="OUT-" type="passive"/>
+        <pin num="S3" name="OUT+" type="passive"/>
+        <pin num="W1" name="DIS" type="passive"/>
+        <pin num="W2" name="PWM" type="passive"/>
+        <pin num="W3" name="SCLK" type="passive"/>
+        <pin num="W4" name="DIR" type="passive"/>
+        <pin num="W5" name="3V3_IN" type="passive"/>
+        <pin num="W6" name="MISO" type="passive"/>
+        <pin num="W7" name="~CS" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="vr" part="Module-vr-0.1">
@@ -126,7 +164,11 @@
       </pins>
     </libpart>
   </libparts>
-  <libraries/>
+  <libraries>
+    <library logical="motor-driver">
+      <uri>/home/runner/work/hellen-example/hellen-example/hellen-one/modules/motor-driver/0.1/motor-driver.kicad_sym</uri>
+    </library>
+  </libraries>
   <nets>
     <net code="1" name="Net-(M1-OUT)">
       <node ref="M1" pin="E3" pinfunction="OUT" pintype="passive"/>
@@ -183,6 +225,45 @@
     </net>
     <net code="18" name="unconnected-(M3-V5-PadN1)">
       <node ref="M3" pin="N1" pinfunction="V5" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(M4-3V3_IN-PadW5)">
+      <node ref="M4" pin="W5" pinfunction="3V3_IN" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(M4-12V_IN-PadN2)">
+      <node ref="M4" pin="N2" pinfunction="12V_IN" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(M4-12V_IN-PadS1)">
+      <node ref="M4" pin="S1" pinfunction="12V_IN" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(M4-DIR-PadW4)">
+      <node ref="M4" pin="W4" pinfunction="DIR" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(M4-DIS-PadW1)">
+      <node ref="M4" pin="W1" pinfunction="DIS" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(M4-GND-PadG)">
+      <node ref="M4" pin="G" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(M4-MISO-PadW6)">
+      <node ref="M4" pin="W6" pinfunction="MISO" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(M4-MOSI-PadN1)">
+      <node ref="M4" pin="N1" pinfunction="MOSI" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(M4-OUT+-PadS3)">
+      <node ref="M4" pin="S3" pinfunction="OUT+" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(M4-OUT--PadS2)">
+      <node ref="M4" pin="S2" pinfunction="OUT-" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(M4-PWM-PadW2)">
+      <node ref="M4" pin="W2" pinfunction="PWM" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(M4-SCLK-PadW3)">
+      <node ref="M4" pin="W3" pinfunction="SCLK" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(M4-~CS-PadW7)">
+      <node ref="M4" pin="W7" pinfunction="~CS" pintype="passive"/>
     </net>
   </nets>
 </export>
