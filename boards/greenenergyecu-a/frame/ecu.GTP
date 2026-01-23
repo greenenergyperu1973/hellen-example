@@ -1,29 +1,15 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.9-8.0.9-0~ubuntu24.04.1*
-G04 #@! TF.CreationDate,2026-01-21T20:10:39+00:00*
+G04 #@! TF.CreationDate,2026-01-23T01:34:04+00:00*
 G04 #@! TF.ProjectId,greenenergyecu,67726565-6e65-46e6-9572-67796563752e,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.9-8.0.9-0~ubuntu24.04.1) date 2026-01-21 20:10:39*
+G04 Created by KiCad (PCBNEW 8.0.9-8.0.9-0~ubuntu24.04.1) date 2026-01-23 01:34:04*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10O,0.500000X0.250000*%
-%ADD11O,0.250000X0.500000*%
 G04 APERTURE END LIST*
-D10*
-G04 #@! TO.C,M3*
-X19465873Y6526398D03*
-X19465873Y4801396D03*
-X19465873Y3076396D03*
-X19465873Y1376398D03*
-D11*
-X6265874Y8001398D03*
-D10*
-X510000Y1980000D03*
-X515872Y5601398D03*
-G04 #@! TD*
 M02*
