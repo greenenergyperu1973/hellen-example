@@ -1,5 +1,2 @@
 Ref,Val,Package,PosX,PosY,Rot,Side
-"M1","Module-vr-discrete-0.5","vr-discrete",2.337500,9.900000,0.000000,top
-"M2","Module-knock-0.2","knock",21.850000,14.800000,0.000000,top
-"M3","Module-vr-0.1","vr",0.015876,0.151398,0.000000,top
-"M4","Module-motor-driver-0.1","motor-driver",10.105000,34.745000,-90.000000,top
+"M5","Module:uaefi/0.2","uaefi",0.050000,0.030000,0.000000,top

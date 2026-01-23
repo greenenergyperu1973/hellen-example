@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-example/hellen-example/greenenergyecu.kicad_sch</source>
-    <date>2026-01-21T20:10:39+0000</date>
+    <date>2026-01-23T01:34:04+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -82,6 +82,20 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3d0721e6-e719-430d-98fe-379394e93d90</tstamps>
     </comp>
+    <comp ref="M5">
+      <value>Module:uaefi/0.2</value>
+      <footprint>0.2:uaefi</footprint>
+      <fields>
+        <field name="Footprint">0.2:uaefi</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="uaefi" part="Module-uaefi-0.2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="greenenergyecu.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d5d61d5-3735-4c8c-ab72-573fb4e5578e</tstamps>
+    </comp>
   </components>
   <libparts>
     <libpart lib="knock" part="Module-knock-0.2">
@@ -123,6 +137,98 @@
         <pin num="W5" name="3V3_IN" type="passive"/>
         <pin num="W6" name="MISO" type="passive"/>
         <pin num="W7" name="~CS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="uaefi" part="Module-uaefi-0.2">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module:uaefi/0.2</field>
+        <field name="Footprint">hellen-one-uaefi-0.2:uaefi</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="OUT_DC1-" type="passive"/>
+        <pin num="A2" name="OUT_DC2-" type="passive"/>
+        <pin num="A3" name="GND" type="passive"/>
+        <pin num="A4" name="GND" type="passive"/>
+        <pin num="A5" name="OUT_DC1+" type="passive"/>
+        <pin num="A6" name="OUT_DC2+" type="passive"/>
+        <pin num="A7" name="IN_VIGN" type="passive"/>
+        <pin num="A8" name="IN_V_MAIN" type="passive"/>
+        <pin num="B1" name="OUT_INJ6" type="passive"/>
+        <pin num="B2" name="OUT_INJ5" type="passive"/>
+        <pin num="B3" name="OUT_INJ4" type="passive"/>
+        <pin num="B4" name="OUT_INJ3" type="passive"/>
+        <pin num="B5" name="OUT_INJ2" type="passive"/>
+        <pin num="B6" name="OUT_INJ1" type="passive"/>
+        <pin num="B7" name="OUT_LS1" type="passive"/>
+        <pin num="B8" name="OUT_LS_HOT2" type="passive"/>
+        <pin num="B9" name="OUT_LS_HOT1" type="passive"/>
+        <pin num="B10" name="OUT_IGN6" type="passive"/>
+        <pin num="B11" name="OUT_IGN4" type="passive"/>
+        <pin num="B12" name="OUT_IGN3" type="passive"/>
+        <pin num="B13" name="OUT_IGN5" type="passive"/>
+        <pin num="B14" name="OUT_IGN2" type="passive"/>
+        <pin num="B15" name="OUT_IGN1" type="passive"/>
+        <pin num="B16" name="OUT_LS4" type="passive"/>
+        <pin num="B17" name="OUT_LS3" type="passive"/>
+        <pin num="B18" name="OUT_LS2" type="passive"/>
+        <pin num="C1" name="+5VP" type="passive"/>
+        <pin num="C2" name="+5VP" type="passive"/>
+        <pin num="C3" name="IN_AUX2" type="passive"/>
+        <pin num="C4" name="IN_PPS2" type="passive"/>
+        <pin num="C5" name="IN_HALL1" type="passive"/>
+        <pin num="C6" name="IN_HALL2" type="passive"/>
+        <pin num="C7" name="IN_HALL3" type="passive"/>
+        <pin num="C8" name="GND" type="passive"/>
+        <pin num="C9" name="IN_BUTTON3" type="passive"/>
+        <pin num="C10" name="EGT+" type="passive"/>
+        <pin num="C11" name="GNDA" type="passive"/>
+        <pin num="C12" name="GNDA" type="passive"/>
+        <pin num="C13" name="GNDA" type="passive"/>
+        <pin num="C14" name="IN_TPS2" type="passive"/>
+        <pin num="C15" name="IN_AUX3" type="passive"/>
+        <pin num="C16" name="VR_MAX9924+" type="passive"/>
+        <pin num="C17" name="VR_MAX9924-" type="passive"/>
+        <pin num="C18" name="VR_DISCRETE+" type="passive"/>
+        <pin num="C19" name="VR_DISCRETE-" type="passive"/>
+        <pin num="C20" name="EGT-" type="passive"/>
+        <pin num="D1" name="IN_AUX1" type="passive"/>
+        <pin num="D2" name="IN_BUTTON1" type="passive"/>
+        <pin num="D3" name="+5VP" type="passive"/>
+        <pin num="D4" name="+5VP" type="passive"/>
+        <pin num="D5" name="IN_FLEX" type="passive"/>
+        <pin num="D6" name="IN_PPS1" type="passive"/>
+        <pin num="D7" name="CAN+" type="passive"/>
+        <pin num="D8" name="CAN-" type="passive"/>
+        <pin num="D9" name="IN_MAP" type="passive"/>
+        <pin num="D10" name="IN_BUTTON2" type="passive"/>
+        <pin num="D11" name="GNDA" type="passive"/>
+        <pin num="D12" name="GNDA" type="passive"/>
+        <pin num="D13" name="IN_TPS1" type="passive"/>
+        <pin num="D14" name="IN_KNOCK_RAW" type="passive"/>
+        <pin num="D15" name="IN_IAT" type="passive"/>
+        <pin num="D16" name="IN_CLT" type="passive"/>
+        <pin num="E1" name="+12V_RAW" type="passive"/>
+        <pin num="E2" name="WBO_Rtrim" type="passive"/>
+        <pin num="E3" name="WBO_Heater" type="passive"/>
+        <pin num="E4" name="WBO_Un" type="passive"/>
+        <pin num="E5" name="WBO_Ip" type="passive"/>
+        <pin num="E6" name="WBO_Vm" type="passive"/>
+        <pin num="J1" name="VBUS" type="passive"/>
+        <pin num="J2" name="USB-" type="passive"/>
+        <pin num="J3" name="USB+" type="passive"/>
+        <pin num="J4" name="GND" type="passive"/>
+        <pin num="J5" name="GND" type="passive"/>
+        <pin num="P3" name="LED_YELLOW" type="passive"/>
+        <pin num="P4" name="LED_GREEN" type="passive"/>
+        <pin num="P7" name="Rx" type="passive"/>
+        <pin num="P8" name="Tx" type="passive"/>
+        <pin num="P15" name="DC1_DIR" type="passive"/>
+        <pin num="P16" name="DC2_DIR" type="passive"/>
+        <pin num="P17" name="DC1_PWM" type="passive"/>
+        <pin num="P18" name="DC2_PWM" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="vr" part="Module-vr-0.1">
@@ -167,6 +273,9 @@
   <libraries>
     <library logical="motor-driver">
       <uri>/home/runner/work/hellen-example/hellen-example/hellen-one/modules/motor-driver/0.1/motor-driver.kicad_sym</uri>
+    </library>
+    <library logical="uaefi">
+      <uri>/home/runner/work/hellen-example/hellen-example/hellen-one/modules/uaefi/0.2/uaefi.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -264,6 +373,249 @@
     </net>
     <net code="31" name="unconnected-(M4-~CS-PadW7)">
       <node ref="M4" pin="W7" pinfunction="~CS" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(M5-+5VP-PadC1)">
+      <node ref="M5" pin="C1" pinfunction="+5VP" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(M5-+5VP-PadC2)">
+      <node ref="M5" pin="C2" pinfunction="+5VP" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(M5-+5VP-PadD3)">
+      <node ref="M5" pin="D3" pinfunction="+5VP" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(M5-+5VP-PadD4)">
+      <node ref="M5" pin="D4" pinfunction="+5VP" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(M5-+12V_RAW-PadE1)">
+      <node ref="M5" pin="E1" pinfunction="+12V_RAW" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(M5-CAN+-PadD7)">
+      <node ref="M5" pin="D7" pinfunction="CAN+" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(M5-CAN--PadD8)">
+      <node ref="M5" pin="D8" pinfunction="CAN-" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(M5-DC1_DIR-PadP15)">
+      <node ref="M5" pin="P15" pinfunction="DC1_DIR" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(M5-DC1_PWM-PadP17)">
+      <node ref="M5" pin="P17" pinfunction="DC1_PWM" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(M5-DC2_DIR-PadP16)">
+      <node ref="M5" pin="P16" pinfunction="DC2_DIR" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(M5-DC2_PWM-PadP18)">
+      <node ref="M5" pin="P18" pinfunction="DC2_PWM" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(M5-EGT+-PadC10)">
+      <node ref="M5" pin="C10" pinfunction="EGT+" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(M5-EGT--PadC20)">
+      <node ref="M5" pin="C20" pinfunction="EGT-" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(M5-GND-PadA3)">
+      <node ref="M5" pin="A3" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(M5-GND-PadA4)">
+      <node ref="M5" pin="A4" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="47" name="unconnected-(M5-GND-PadC8)">
+      <node ref="M5" pin="C8" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(M5-GND-PadJ4)">
+      <node ref="M5" pin="J4" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(M5-GND-PadJ5)">
+      <node ref="M5" pin="J5" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(M5-GNDA-PadC11)">
+      <node ref="M5" pin="C11" pinfunction="GNDA" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(M5-GNDA-PadC12)">
+      <node ref="M5" pin="C12" pinfunction="GNDA" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(M5-GNDA-PadC13)">
+      <node ref="M5" pin="C13" pinfunction="GNDA" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(M5-GNDA-PadD11)">
+      <node ref="M5" pin="D11" pinfunction="GNDA" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(M5-GNDA-PadD12)">
+      <node ref="M5" pin="D12" pinfunction="GNDA" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(M5-IN_AUX1-PadD1)">
+      <node ref="M5" pin="D1" pinfunction="IN_AUX1" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(M5-IN_AUX2-PadC3)">
+      <node ref="M5" pin="C3" pinfunction="IN_AUX2" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(M5-IN_AUX3-PadC15)">
+      <node ref="M5" pin="C15" pinfunction="IN_AUX3" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(M5-IN_BUTTON1-PadD2)">
+      <node ref="M5" pin="D2" pinfunction="IN_BUTTON1" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(M5-IN_BUTTON2-PadD10)">
+      <node ref="M5" pin="D10" pinfunction="IN_BUTTON2" pintype="passive"/>
+    </net>
+    <net code="60" name="unconnected-(M5-IN_BUTTON3-PadC9)">
+      <node ref="M5" pin="C9" pinfunction="IN_BUTTON3" pintype="passive"/>
+    </net>
+    <net code="61" name="unconnected-(M5-IN_CLT-PadD16)">
+      <node ref="M5" pin="D16" pinfunction="IN_CLT" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(M5-IN_FLEX-PadD5)">
+      <node ref="M5" pin="D5" pinfunction="IN_FLEX" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(M5-IN_HALL1-PadC5)">
+      <node ref="M5" pin="C5" pinfunction="IN_HALL1" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(M5-IN_HALL2-PadC6)">
+      <node ref="M5" pin="C6" pinfunction="IN_HALL2" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(M5-IN_HALL3-PadC7)">
+      <node ref="M5" pin="C7" pinfunction="IN_HALL3" pintype="passive"/>
+    </net>
+    <net code="66" name="unconnected-(M5-IN_IAT-PadD15)">
+      <node ref="M5" pin="D15" pinfunction="IN_IAT" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(M5-IN_KNOCK_RAW-PadD14)">
+      <node ref="M5" pin="D14" pinfunction="IN_KNOCK_RAW" pintype="passive"/>
+    </net>
+    <net code="68" name="unconnected-(M5-IN_MAP-PadD9)">
+      <node ref="M5" pin="D9" pinfunction="IN_MAP" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(M5-IN_PPS1-PadD6)">
+      <node ref="M5" pin="D6" pinfunction="IN_PPS1" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(M5-IN_PPS2-PadC4)">
+      <node ref="M5" pin="C4" pinfunction="IN_PPS2" pintype="passive"/>
+    </net>
+    <net code="71" name="unconnected-(M5-IN_TPS1-PadD13)">
+      <node ref="M5" pin="D13" pinfunction="IN_TPS1" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(M5-IN_TPS2-PadC14)">
+      <node ref="M5" pin="C14" pinfunction="IN_TPS2" pintype="passive"/>
+    </net>
+    <net code="73" name="unconnected-(M5-IN_VIGN-PadA7)">
+      <node ref="M5" pin="A7" pinfunction="IN_VIGN" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(M5-IN_V_MAIN-PadA8)">
+      <node ref="M5" pin="A8" pinfunction="IN_V_MAIN" pintype="passive"/>
+    </net>
+    <net code="75" name="unconnected-(M5-LED_GREEN-PadP4)">
+      <node ref="M5" pin="P4" pinfunction="LED_GREEN" pintype="passive"/>
+    </net>
+    <net code="76" name="unconnected-(M5-LED_YELLOW-PadP3)">
+      <node ref="M5" pin="P3" pinfunction="LED_YELLOW" pintype="passive"/>
+    </net>
+    <net code="77" name="unconnected-(M5-OUT_DC1+-PadA5)">
+      <node ref="M5" pin="A5" pinfunction="OUT_DC1+" pintype="passive"/>
+    </net>
+    <net code="78" name="unconnected-(M5-OUT_DC1--PadA1)">
+      <node ref="M5" pin="A1" pinfunction="OUT_DC1-" pintype="passive"/>
+    </net>
+    <net code="79" name="unconnected-(M5-OUT_DC2+-PadA6)">
+      <node ref="M5" pin="A6" pinfunction="OUT_DC2+" pintype="passive"/>
+    </net>
+    <net code="80" name="unconnected-(M5-OUT_DC2--PadA2)">
+      <node ref="M5" pin="A2" pinfunction="OUT_DC2-" pintype="passive"/>
+    </net>
+    <net code="81" name="unconnected-(M5-OUT_IGN1-PadB15)">
+      <node ref="M5" pin="B15" pinfunction="OUT_IGN1" pintype="passive"/>
+    </net>
+    <net code="82" name="unconnected-(M5-OUT_IGN2-PadB14)">
+      <node ref="M5" pin="B14" pinfunction="OUT_IGN2" pintype="passive"/>
+    </net>
+    <net code="83" name="unconnected-(M5-OUT_IGN3-PadB12)">
+      <node ref="M5" pin="B12" pinfunction="OUT_IGN3" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(M5-OUT_IGN4-PadB11)">
+      <node ref="M5" pin="B11" pinfunction="OUT_IGN4" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(M5-OUT_IGN5-PadB13)">
+      <node ref="M5" pin="B13" pinfunction="OUT_IGN5" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(M5-OUT_IGN6-PadB10)">
+      <node ref="M5" pin="B10" pinfunction="OUT_IGN6" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(M5-OUT_INJ1-PadB6)">
+      <node ref="M5" pin="B6" pinfunction="OUT_INJ1" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(M5-OUT_INJ2-PadB5)">
+      <node ref="M5" pin="B5" pinfunction="OUT_INJ2" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(M5-OUT_INJ3-PadB4)">
+      <node ref="M5" pin="B4" pinfunction="OUT_INJ3" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(M5-OUT_INJ4-PadB3)">
+      <node ref="M5" pin="B3" pinfunction="OUT_INJ4" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(M5-OUT_INJ5-PadB2)">
+      <node ref="M5" pin="B2" pinfunction="OUT_INJ5" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(M5-OUT_INJ6-PadB1)">
+      <node ref="M5" pin="B1" pinfunction="OUT_INJ6" pintype="passive"/>
+    </net>
+    <net code="93" name="unconnected-(M5-OUT_LS1-PadB7)">
+      <node ref="M5" pin="B7" pinfunction="OUT_LS1" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(M5-OUT_LS2-PadB18)">
+      <node ref="M5" pin="B18" pinfunction="OUT_LS2" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(M5-OUT_LS3-PadB17)">
+      <node ref="M5" pin="B17" pinfunction="OUT_LS3" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(M5-OUT_LS4-PadB16)">
+      <node ref="M5" pin="B16" pinfunction="OUT_LS4" pintype="passive"/>
+    </net>
+    <net code="97" name="unconnected-(M5-OUT_LS_HOT1-PadB9)">
+      <node ref="M5" pin="B9" pinfunction="OUT_LS_HOT1" pintype="passive"/>
+    </net>
+    <net code="98" name="unconnected-(M5-OUT_LS_HOT2-PadB8)">
+      <node ref="M5" pin="B8" pinfunction="OUT_LS_HOT2" pintype="passive"/>
+    </net>
+    <net code="99" name="unconnected-(M5-Rx-PadP7)">
+      <node ref="M5" pin="P7" pinfunction="Rx" pintype="passive"/>
+    </net>
+    <net code="100" name="unconnected-(M5-Tx-PadP8)">
+      <node ref="M5" pin="P8" pinfunction="Tx" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(M5-USB+-PadJ3)">
+      <node ref="M5" pin="J3" pinfunction="USB+" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(M5-USB--PadJ2)">
+      <node ref="M5" pin="J2" pinfunction="USB-" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(M5-VBUS-PadJ1)">
+      <node ref="M5" pin="J1" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(M5-VR_DISCRETE+-PadC18)">
+      <node ref="M5" pin="C18" pinfunction="VR_DISCRETE+" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(M5-VR_DISCRETE--PadC19)">
+      <node ref="M5" pin="C19" pinfunction="VR_DISCRETE-" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(M5-VR_MAX9924+-PadC16)">
+      <node ref="M5" pin="C16" pinfunction="VR_MAX9924+" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(M5-VR_MAX9924--PadC17)">
+      <node ref="M5" pin="C17" pinfunction="VR_MAX9924-" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(M5-WBO_Heater-PadE3)">
+      <node ref="M5" pin="E3" pinfunction="WBO_Heater" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(M5-WBO_Ip-PadE5)">
+      <node ref="M5" pin="E5" pinfunction="WBO_Ip" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(M5-WBO_Rtrim-PadE2)">
+      <node ref="M5" pin="E2" pinfunction="WBO_Rtrim" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(M5-WBO_Un-PadE4)">
+      <node ref="M5" pin="E4" pinfunction="WBO_Un" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(M5-WBO_Vm-PadE6)">
+      <node ref="M5" pin="E6" pinfunction="WBO_Vm" pintype="passive"/>
     </net>
   </nets>
 </export>
