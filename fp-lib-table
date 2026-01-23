@@ -3,4 +3,5 @@
   (lib (name "knock")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/knock")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/Library.pretty")(options "")(descr ""))
   (lib (name "motor-driver")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/motor-driver/0.1")(options "")(descr ""))
+  (lib (name "0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/uaefi/0.2")(options "")(descr ""))
 )
